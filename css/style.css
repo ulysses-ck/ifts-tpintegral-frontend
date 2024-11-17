@@ -14,14 +14,14 @@ body {
   font-family: "League Spartan", sans-serif;
 }
 
-body:nth-child(1) {
+.class-1 {
   font-weight: 500;
 }
 
-body:nth-child(2) {
+.class-2 {
   font-weight: 600;
 }
 
-body:nth-child(3) {
+.class-3 {
   font-weight: 700;
 }
