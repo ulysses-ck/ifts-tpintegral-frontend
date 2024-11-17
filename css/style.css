@@ -47,8 +47,11 @@ body {
   position: absolute;
 
   /* centrar */
+  width: 100%;
   display: flex;
+  justify-content: center;
   align-items: center;
+
 
   /* padding superior */
   margin: 1rem;
@@ -63,6 +66,48 @@ body {
   border: none;
   position: absolute;
   left: 1rem;
+  cursor: pointer;
+}
+
+.first-text, .second-text {
+  padding: 3rem 2rem;
+}
+
+.first-text h2 {
+  line-height: 1;
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 0 0 1rem 0;
+}
+
+.first-text p {
+  color: var(--dark-gray);
+  line-height: 1.5;
+  font-size: 1rem;
+}
+
+.first-text button {
+  margin: 2rem 0;
+  background-color: transparent;
+  border: none;
+
+  letter-spacing: 0.5rem;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.second-text h2 {
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 0 0 1rem 0;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+}
+
+.second-text p {
+  color: var(--dark-gray);
+  line-height: 1.5;
+  font-size: 1rem;
 }
 
 @media screen and (min-width: 475px) {
