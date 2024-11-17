@@ -25,3 +25,25 @@ body {
 .class-3 {
   font-weight: 700;
 }
+
+.image-container {
+    width: 100%;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    position: absolute;
+}
+
+.navbar {
+    display: none;
+}
