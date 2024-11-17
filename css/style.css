@@ -1,14 +1,27 @@
 * {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 :root {
-    --dark-gray: hsl(0, 0%, 63%);
-    --black: hsl(0, 0%, 0%);
-    --white: hsl(0, 0%, 100%);
-    --very-dark-gray: hsl(0, 0%, 27%);
+  --dark-gray: hsl(0, 0%, 63%);
+  --black: hsl(0, 0%, 0%);
+  --white: hsl(0, 0%, 100%);
+  --very-dark-gray: hsl(0, 0%, 27%);
 }
 
 body {
-    font-size: 12px;
+  font-size: 12px;
+  font-family: "League Spartan", sans-serif;
+}
+
+body:nth-child(1) {
+  font-weight: 500;
+}
+
+body:nth-child(2) {
+  font-weight: 600;
+}
+
+body:nth-child(3) {
+  font-weight: 700;
 }
