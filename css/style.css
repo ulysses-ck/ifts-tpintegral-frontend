@@ -146,5 +146,7 @@ body {
     padding: 4rem 2rem;
   }
 
-
+  .first-part button {
+    font-weight: 700;
+  }
 }
