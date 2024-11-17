@@ -12,6 +12,9 @@
 body {
   font-size: 12px;
   font-family: "League Spartan", sans-serif;
+
+  width: 100vw;
+  min-height: 100vh;
 }
 
 .class-1 {
@@ -24,15 +27,6 @@ body {
 
 .class-3 {
   font-weight: 700;
-}
-
-.image-container {
-  width: 100%;
-}
-
-.image-container img {
-  width: 100%;
-  height: auto;
 }
 
 .main,
@@ -125,9 +119,11 @@ body {
   }
 
   .header {
+    display: flex;
     justify-content: start;
     align-items: center;
-    padding: 0;
+    padding: 0.5rem 2rem;
+    width: fit-content;
   }
 
   .navbar-ul {
@@ -139,5 +135,16 @@ body {
   .navbar-ul > li > a {
     text-decoration: none;
     color: white;
+    text-transform: lowercase;
   }
+
+  .first-part, .second-part {
+    height: 100%;
+  }
+
+  .first-text {
+    padding: 4rem 2rem;
+  }
+
+
 }
