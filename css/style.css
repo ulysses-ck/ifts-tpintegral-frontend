@@ -109,11 +109,11 @@ body {
 }
 
 .first-part button > svg {
-  filter: var(--black);
+  fill: var(--black);
 }
 
-.first-part button:hover > img {
-  filter: var(--dark-gray);
+.first-part button:hover > svg {
+  fill: var(--dark-gray);
 }
 
 @media screen and (min-width: 475px) {
