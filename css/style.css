@@ -12,7 +12,6 @@
 body {
   font-size: 12px;
   font-family: "League Spartan", sans-serif;
-
   min-height: 100vh;
 }
 
@@ -112,10 +111,27 @@ body {
   fill: var(--dark-gray);
 }
 
-@media screen and (min-width: 475px) {
+@media screen and (min-width: 768px) {
+  .main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    place-items: center;
+  }
+
+  .first-part{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .second-part {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
   .first-part,
   .second-part {
-    flex-direction: row;
+    height: 100%;
   }
 
   .navbar {
@@ -150,9 +166,6 @@ body {
     text-decoration: underline;
   }
 
-  .first-part, .second-part {
-    height: 100%;
-  }
 
   .first-text {
     padding: 4rem 2rem;
