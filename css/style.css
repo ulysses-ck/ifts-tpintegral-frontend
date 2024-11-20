@@ -17,6 +17,7 @@ body {
 
 .image-container {
   width: 100%;
+  position: relative;
 }
 
 .image-container img {
@@ -109,6 +110,26 @@ body {
 
 .first-part button:hover > svg {
   fill: var(--dark-gray);
+}
+
+.buttons {
+  position: absolute;
+  bottom: 0;
+  right:0;
+  display: flex;
+  width: fit-content;
+  height: fit-content;
+}
+
+.buttons button {
+
+
+  background-color: var(--black);
+  color: var(--white);
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+
 }
 
 @media screen and (min-width: 768px) {
