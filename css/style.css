@@ -45,6 +45,8 @@ body {
 
   /* padding superior */
   margin: 1rem;
+
+  z-index: 1;
 }
 
 .navbar {
