@@ -114,17 +114,26 @@ body {
   fill: var(--dark-gray);
 }
 
-.buttons {
-  position: absolute;
-  bottom: 3px;
-  right:0;
-  display: flex;
-  justify-content: space-between;
 
-  width: 140px;
+.middle-container {
+  display: grid;
+  grid-template-areas: '. buttons';
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+.buttons {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  grid-area: buttons;
   height: fit-content;
   background-color: var(--black);
 }
+
+
 
 .buttons button {
   background-color: var(--black);
@@ -201,10 +210,10 @@ body {
     font-weight: 700;
   }
 
-  .buttons {
-    width: 183px;
-    justify-content: space-between;
-    right: -183px;
-    bottom: 0;
+  .middle-container {
+    left: 0;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    width: 100vw;
+    grid-template-areas: '. . . buttons . .';
   }
 }
