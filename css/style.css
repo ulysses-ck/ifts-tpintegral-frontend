@@ -210,10 +210,19 @@ body {
     font-weight: 700;
   }
 
+  .first-part {
+    position: relative;
+  }
+
+  .image-container {
+    position: static;
+  }
+
   .middle-container {
+    bottom:0;
     left: 0;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    width: 100vw;
+    width: 100%;
     grid-template-areas: '. . . buttons . .';
   }
 }
